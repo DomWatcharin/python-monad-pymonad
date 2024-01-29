@@ -4,7 +4,7 @@ from typing import Final
 from pymonad.tools import curry
 from pymonad.either import Left, Right
 
-# Function to handle file reading
+# Function to handle file reading 8-13 to io monad instead either don't want if fuction use try except 
 def read_csv_file(file_path):
     with open(file_path, 'r') as csvfile:
             reader = csv.reader(csvfile)
